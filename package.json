@@ -4,7 +4,7 @@
   "type": "commonjs",
   "description": "React library to add convertkit forms to React applications",
   "main": "bin/convertkit-react.cjs.js",
-  "module": "bin/convertkit-react.esm.js",
+  "module": "bin/convertkit-react.cjs.js",
   "scripts": {
     "build": "rollup -c",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
